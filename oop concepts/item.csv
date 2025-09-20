@@ -1,0 +1,6 @@
+name, price, quantity
+"mobile", 100, 3
+"laptop", 1000, 5
+"cable", 10, 3
+"mouse", 50, 2
+"keyboard", 25, 6

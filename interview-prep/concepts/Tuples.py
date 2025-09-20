@@ -1,0 +1,7 @@
+novels= ("TBATE", "Magic emperor", 3, "ORV")
+print(novels.index("TBATE"))
+print(len(novels))
+print("ORV" in novels)
+fictions = novels + ("Jobless reincarnation", "Re-zero")
+print(fictions)
+print(novels)

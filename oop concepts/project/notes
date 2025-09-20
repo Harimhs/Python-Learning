@@ -1,0 +1,42 @@
+# ENCAPSULATION:
+
+#    @property
+#     def name(self):
+#         return self.__name
+
+#     #To allow to set the name 
+#     @name.setter
+#     def name(self, value):
+#         if len(value)>10:
+#             raise Exception("Too long")
+#         else:
+#             self.__name= value
+
+# ABSTRACTION:
+
+#     Hiding the information
+
+# INHERITANCE:
+
+# from item import Item
+
+# class phones(Item):
+
+#     def __init__(self, name: str, price: float, quantity=0, broken_phones=0):
+#         super().__init__(
+#             name, price, quantity
+#         )
+
+#         assert broken_phones >= 0, f"The attribute {broken_phones} must be equal or above 0"
+#         self.broken_phones = broken_phones
+
+# POLYMORPHISM:
+
+# #from item import Item
+# from phone import phones
+
+# item1= phones('ItemA', 23)
+
+
+# print(item1.name)
+
